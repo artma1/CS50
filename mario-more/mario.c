@@ -3,10 +3,10 @@
 
 int main (void)
 {
-   do
+    int n = get_int("Chose the size of the pyramid " );
+    for (n<1 || n>8);
     {
-        int n = get_int("Chose the size of the pyramid " );
         printf("The size must be between 1 and 8\n");
+        int n = get_int("Chose the size of the pyramid " );
     }
-    while(n<1 || n>8);
 }
