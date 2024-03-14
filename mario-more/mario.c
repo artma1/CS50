@@ -13,7 +13,7 @@ int main (void)
     while (n<1||n>8);
     for (int i=1; i<=n; i++)
     {
-        int j=i*2;
+        for (int j=0; j=i*2)
         printf("#\n");
     }
 }
