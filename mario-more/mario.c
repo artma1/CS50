@@ -11,9 +11,9 @@ int main (void)
     printf("The size must be between 1 and 8\n");
     }
     while (n<1||n>8);
-    for (int i=0, i<n, i++)
+    for (int i=1; i<=n; i++)
     {
         int j=i*2;
-        print("#\n");
+        printf("#\n");
     }
 }
