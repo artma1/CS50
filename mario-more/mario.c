@@ -8,9 +8,11 @@ int main (void)
     do
     {
     n = get_int("chose the size of the pyramid ");
-    printf("The size must be between 1 and 8\n");
     }
     while (n<1||n>8);
+    if (n<1||n>8){
+    printf("The size must be between 1 and 8\n");
+    }
     for (int i=0; i<=n; i++)
     {
         for (int j=0; j<n; j++)
