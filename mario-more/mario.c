@@ -17,11 +17,15 @@ int main (void)
 
     for (int i=0; i<n; i++)
     {
-        for (int j=0; j<n*2; j++)
+        for (int j=0; j<n-1; j++)
         {
-        printf("  ");
-        printf("#");
+            printf("  ");
         }
+        for (int j=n; j<n*2; j++)
+        {
+            printf("#");
+        }
+
     printf("\n");
     }
 }
