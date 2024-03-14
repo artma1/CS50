@@ -8,5 +8,5 @@ int main (void)
     {
         printf("The size must be between 1 and 8\n");
     }
-    while(n<1 || n>8)
+    while(n<1 || n>8);
 }
