@@ -19,7 +19,7 @@ int main (void)
     {
         for (int j=0; j<n*2; j++)
         {
-        printf(" ");
+        printf("  ");
         printf("#");
         }
     printf("\n");
