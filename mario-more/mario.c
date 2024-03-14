@@ -19,7 +19,12 @@ int main (void)
     {
         for (int j=0; j<n-1; j++)
         {
+            //teste com do while
+            do
+            {
             printf("  ");
+            }
+            while(j<n);
         }
         for (int j=n; j<n*2; j++)
         {
