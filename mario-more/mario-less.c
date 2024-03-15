@@ -3,8 +3,8 @@
 
 int main(void)
 int n
-int n = get_int("Chose the pyramid size" )
 do
 int n = get_int("Chose the pyramid size" )
+if
 while(n>0)
 
