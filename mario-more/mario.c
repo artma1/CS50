@@ -16,11 +16,14 @@ int main (void)
     while (n<1||n>8);
     for (int i=1; i<n; i++)
     {
-         for (int j=i; j<=n-1; j++)
-                {
-                    printf(" ");
-                }
-        for (k=i; k<=n)
+        for (int j=1; j<i; j++)
+        {
+            printf(" ");
+        }
+        for (int k=i; k<=n; k++)
+        {
+            printf("#");
+        }
 
          printf("\n");
     }
