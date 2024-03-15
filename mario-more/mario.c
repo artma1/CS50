@@ -20,8 +20,6 @@ int main (void)
                 {
                     if(n==j-1||n==2*j-1)
                     printf("#");
-                    else
-                    printf(" ");
                 }
     }
     printf("\n");
