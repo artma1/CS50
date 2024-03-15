@@ -20,7 +20,7 @@ int main (void)
                 {
                     printf(" ");
                 }
-        for (k)
+        for (k=1; k)
 
          printf("\n");
     }
