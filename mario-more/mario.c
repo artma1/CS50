@@ -18,11 +18,11 @@ int main (void)
     {
          for (int j=0; j<n*2; j++)
                 {
-                    if(n=i)
+                    if(n==j||n==2*j)
                     printf("#");
+                    else
+                    printf(" ");
                 }
-            printf("#");
     }
-
     printf("\n");
     }
