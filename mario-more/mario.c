@@ -14,15 +14,14 @@ int main (void)
         }
     }
     while (n<1||n>8);
-    for (int i=0; i<n; i++)
+    for (int i=1; i<n; i++)
     {
-         for (int j=i; j<n-2; j++)
+         for (int j=i; j<=n-1; j++)
                 {
-                    if(n==j+1||j==n*2-1)
-                    printf("#");
-                    else
                     printf(" ");
                 }
+        for (k)
+
          printf("\n");
     }
 }
