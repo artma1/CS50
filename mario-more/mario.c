@@ -17,20 +17,16 @@ int main (void)
 
     for (int i=0; i<n; i++)
     {
-        for (int j=0; j<n; j++)
+        do
         {
-            //teste com do while
-            do
-            {
-            printf("  ");
-            }
-            while(j<n);
+            for (int j=0; j<n; j++)
+                {
+                    printf("  ");
+                }
+        while(j<n);
         }
-        for (int j=n; j<n*2; j++)
-        {
             printf("#");
-        }
+    }
 
     printf("\n");
     }
-}
