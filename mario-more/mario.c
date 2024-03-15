@@ -28,16 +28,14 @@ int main (void)
         {
             printf(" ");
         }
-        for (int m=i; m<n; m++)
-        {
-            printf(" ");
-        }
         for (int o=1; o<=i; o++)
         {
             printf("#");
         }
-
-
-         printf("\n");
+        for (int m=i; m<n; m++)
+        {
+            printf(" ");
+        }
+        printf("\n");
     }
 }
