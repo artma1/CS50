@@ -18,7 +18,7 @@ int main (void)
     {
          for (int j=0; j<n*2; j++)
                 {
-                    if(n==j||n==2*j)
+                    if(n==j+1||j=n*2-1)
                     printf("#");
                     else
                     printf(" ");
