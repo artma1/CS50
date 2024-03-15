@@ -2,8 +2,9 @@
 #include <cs50.h>
 
 int main(void)
-int (n)
+int n
+int n = get_int("Chose the pyramid size" )
 do
 int n = get_int("Chose the pyramid size" )
-while(n>)
+while(n>0)
 
