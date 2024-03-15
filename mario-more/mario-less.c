@@ -17,7 +17,7 @@ int n;
         {
             printf(" ");
         }
-        for (int k=)
+        for (int k=1; k<n; k++)
         printf("\n");
     }
 }
