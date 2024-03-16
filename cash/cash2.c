@@ -18,7 +18,6 @@ int main(void)
     }
     while (c <= 0);
     i = c % 100;
-    printf("%i\n", i);
     r = i % 25;   //remainder c25
     coin = i / 25;     //number of coins
     printf("Number of 25 cents coins: %d", coin);
