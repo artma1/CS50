@@ -62,9 +62,8 @@ int main(void)
     }
     if (r>0)
     {
-        coin = r / 5;
-        r = r % 5;
-        printf("Number of 5 cent coins: %d", coin);
+        coin = r;
+        printf("Number of 1 cent coins: %d", coin);
         printf ("\n");
         printf("resto: %d", r);
         printf ("\n");
@@ -72,7 +71,7 @@ int main(void)
     else
     {
         coin = 0;
-        printf("Number of 5 cent coins: %d", coin);
+        printf("Number of 1 cent coins: %d", coin);
         printf ("\n");
         printf("resto: %d", r);
         printf ("\n");
