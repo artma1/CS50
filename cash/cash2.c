@@ -47,7 +47,7 @@ int main(void)
     {
         coin = r / 5;
         r = r % 5;
-        printf("Number of 10 cents coins: %d", coin);
+        printf("Number of 5 cents coins: %d", coin);
         printf ("\n");
         printf("resto: %d", r);
         printf ("\n");
