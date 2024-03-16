@@ -33,7 +33,7 @@ int main(void)
     }
     else
     {
-        coin = r / 10;
-        r = 
+        coin = r / 5;
+        r = r % 5;
     }
 }
