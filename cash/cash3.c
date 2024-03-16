@@ -24,7 +24,7 @@ int main(void)
     printf ("\n");
     printf("Balance: %d", r);
     printf ("\n");
-    t = coin
+    t = coin;
     if (r>0)
     {
         coin = r / 10;
@@ -42,6 +42,7 @@ int main(void)
         printf("Balance: %d", r);
         printf ("\n");
     }
+    t = t + coin;
     if (r>0)
     {
         coin = r / 5;
@@ -59,6 +60,7 @@ int main(void)
         printf("Balance: %d", r);
         printf ("\n");
     }
+    t = t + coin;
     if (r>0)
     {
         coin = r;
@@ -74,6 +76,9 @@ int main(void)
         printf ("\n");
         printf("balance: %d", r);
         printf ("\n");
+        t = t + coin;
     }
     printf("(change in coins needed only bellow 1 dollar)\n");
+    printf(" all coins: %d", t);
+    printf("\n");
 }
