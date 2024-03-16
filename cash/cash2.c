@@ -75,4 +75,5 @@ int main(void)
         printf("balance: %d", r);
         printf ("\n");
     }
+    printf("(change in coins needed only bellow 1 dollar)");
 }
