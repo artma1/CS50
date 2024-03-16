@@ -22,6 +22,7 @@ int main(void)
     //printf("%j\n", j);
     c25 = i % 25;   //resto
     i = i / 25;     //num de moedas
+    
     for (r = 0; r == 10; r++)
         {
             printf("Moedas de:");
