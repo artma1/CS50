@@ -22,10 +22,8 @@ int main(void)
     //printf("%j\n", j);
     r = i % 25;   //resto c25
     i = i / 25;     //num de moedas
-    if (r != 0)
-    {
-        
-    }
+    printf("Number of 25 cent coins: %d", i);
+    if 
 
     for (r = 0; r == 10; r++)
         {
