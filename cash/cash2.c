@@ -28,7 +28,12 @@ int main(void)
     printf ("\n");
     if (r>0)
     {
+        coin = r / 10;
         r = r % 10;
-        coin = i / 10;
+    }
+    else
+    {
+        coin = r / 10;
+        r = 
     }
 }
