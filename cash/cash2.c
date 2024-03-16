@@ -10,10 +10,10 @@ int main(void)
     printf("I calculate how many coins to give back in change\n");
     do
     {
-        c = get_int("Specify the change: ");
+        c = get_int("Specify the change in dollars: ");
         if(c <= 0)
         {
-            printf ("Change can't be zero or negative\n");
+            printf ("Value can't be zero or negative\n");
         }
     }
     while (c <= 0);
@@ -75,5 +75,5 @@ int main(void)
         printf("balance: %d", r);
         printf ("\n");
     }
-    printf("(change in coins needed only bellow 1 dollar)");
+    printf("(change in coins needed only bellow 1 dollar)\n");
 }
