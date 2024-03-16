@@ -5,7 +5,7 @@ int main(void)
 {
     int c;
     int i;
-    int c25; int coin; int r;
+    int coin; int r; int t;
     printf("Change Calculator\n");
     printf("I calculate how many coins to give back in change\n");
     do
@@ -26,6 +26,7 @@ int main(void)
     printf ("\n");
     if (r>0)
     {
+        t = coin
         coin = r / 10;
         r = r % 10;
         printf("Number of 10 cents coins: %d", coin);
