@@ -24,9 +24,9 @@ int main(void)
     printf ("\n");
     printf("Balance: %d", r);
     printf ("\n");
+    t = coin
     if (r>0)
     {
-        t = coin
         coin = r / 10;
         r = r % 10;
         printf("Number of 10 cents coins: %d", coin);
