@@ -20,9 +20,12 @@ int main(void)
     //j = i % 10;
     printf("%i\n", i);
     //printf("%j\n", j);
-    c25 = i % 25;   //resto
+    r = i % 25;   //resto c25
     i = i / 25;     //num de moedas
-    if (c25 != 0)
+    if (r != 0)
+    {
+        
+    }
 
     for (r = 0; r == 10; r++)
         {
