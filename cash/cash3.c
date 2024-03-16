@@ -76,8 +76,8 @@ int main(void)
         printf ("\n");
         printf("balance: %d", r);
         printf ("\n");
-        t = t + coin;
     }
+    t = t + coin;
     printf("(change in coins needed only bellow 1 dollar)\n");
     printf(" all coins: %d", t);
     printf("\n");
