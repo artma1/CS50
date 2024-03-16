@@ -23,10 +23,7 @@ int main(void)
     r = i % 25;   //resto c25
     i = i / 25;     //num de moedas
     printf("Number of 25 cent coins: %d", i);
-    if 
-
-    for (r = 0; r == 10; r++)
-        {
-            printf("Moedas de:");
-        }
+    printf ("\n");
+    printf("resto: %d", r);
+    printf ("\n");
 }
