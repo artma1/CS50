@@ -26,5 +26,9 @@ int main(void)
     printf ("\n");
     printf("resto: %d", r);
     printf ("\n");
-
+    if (r>0)
+    {
+        r = r % 10;
+        coin = i / 10;
+    }
 }
