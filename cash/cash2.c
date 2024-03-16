@@ -6,7 +6,7 @@ int main(void)
     int c;
     int i;
     //int j;
-    int c1; int c5; int c10; int c25;
+    int c25; int contador; int resto; int r;
     do
     {
         c = get_int("Specify the change: ");
@@ -20,16 +20,10 @@ int main(void)
     //j = i % 10;
     printf("%i\n", i);
     //printf("%j\n", j);
-c25 = i/25;
-int c25r = i%25;
-c10 = c25r/10;
-int c10r = c25r%10;
-c5 = c10r/5;
-int c5r = c5%5;
-c1 = c5r;
-printf("The number of coins are:\n");
-printf("25 cents: %d\n", c25);
-printf("10 cents: %d\n", c10);
-printf("5 cents: %d\n", c5);
-printf("1 cent: %d\n", c1);
+    c25 = i % 25;   //resto
+    i = i / 25;     //num de moedas
+    for (r = 0; r == 10; r++)
+        {
+            printf("Moedas de:");
+        }
 }
