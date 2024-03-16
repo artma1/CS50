@@ -24,7 +24,7 @@ int main(void)
     coin = i / 25;     //num de moedas
     printf("Number of 25 cents coins: %d", coin);
     printf ("\n");
-    printf("resto: %d", r);
+    printf("Balance: %d", r);
     printf ("\n");
     if (r>0)
     {
@@ -32,7 +32,7 @@ int main(void)
         r = r % 10;
         printf("Number of 10 cents coins: %d", coin);
         printf ("\n");
-        printf("resto: %d", r);
+        printf("Balance: %d", r);
         printf ("\n");
     }
     else
@@ -40,7 +40,7 @@ int main(void)
         coin = 0;
         printf("Number of 10 cents coins: %d", coin);
         printf ("\n");
-        printf("resto: %d", r);
+        printf("Balance: %d", r);
         printf ("\n");
     }
     if (r>0)
@@ -49,7 +49,7 @@ int main(void)
         r = r % 5;
         printf("Number of 5 cents coins: %d", coin);
         printf ("\n");
-        printf("resto: %d", r);
+        printf("Balance: %d", r);
         printf ("\n");
     }
     else
@@ -57,7 +57,7 @@ int main(void)
         coin = 0;
         printf("Number of 5 cents coins: %d", coin);
         printf ("\n");
-        printf("resto: %d", r);
+        printf("Balance: %d", r);
         printf ("\n");
     }
     if (r>0)
@@ -65,7 +65,7 @@ int main(void)
         coin = r;
         printf("Number of 1 cent coins: %d", coin);
         printf ("\n");
-        printf("resto: %d", r);
+        printf("Balance: %d", r);
         printf ("\n");
     }
     else
@@ -73,7 +73,7 @@ int main(void)
         coin = 0;
         printf("Number of 1 cent coins: %d", coin);
         printf ("\n");
-        printf("resto: %d", r);
+        printf("balance: %d", r);
         printf ("\n");
     }
 }
