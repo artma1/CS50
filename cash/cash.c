@@ -5,34 +5,82 @@ int main(void)
 {
     int c;
     int i;
-    // int j;
-    int c1;
-    int c5;
-    int c10;
-    int c25;
+    int coin;
+    int r;
+    int t;
+    printf("Change Calculator\n");
+    printf("I calculate how many coins to give back in change\n");
     do
     {
-        c = get_int("Specify the change: ");
+        c = get_int("Specify the change in dollars: ");
         if (c <= 0)
         {
-            printf("Change can't be zero or negative\n");
+            printf("Value can't be zero or negative\n");
         }
     }
     while (c <= 0);
-    i = c % 100;
-    // j = i % 10;
-    printf("%i\n", i);
-    // printf("%j\n", j);
-c25 = i / 25;
-int c25r = i % 25;
-c10 = c25r / 10;
-int c10r = c25r % 10;
-c5 = c10r /5;
-int c5r = c5%5;
-c1 = c5r;
-printf("The number of coins are:\n");
-printf("25 cents: %d\n", c25);
-printf("10 cents: %d\n", c10);
-printf("5 cents: %d\n", c5);
-printf("1 cent: %d\n", c1);
+    i = c;
+    r = i % 25;    // remainder c25
+    coin = i / 25; // number of coins
+    printf("Number of 25 cents coins: %d", coin);
+    printf("\n");
+    printf("Balance: %d", r);
+    printf("\n");
+    t = coin;
+    if (r > 0)
+    {
+        coin = r / 10;
+        r = r % 10;
+        printf("Number of 10 cents coins: %d", coin);
+        printf("\n");
+        printf("Balance: %d", r);
+        printf("\n");
+    }
+    else
+    {
+        coin = 0;
+        printf("Number of 10 cents coins: %d", coin);
+        printf("\n");
+        printf("Balance: %d", r);
+        printf("\n");
+    }
+    t = t + coin;
+    if (r > 0)
+    {
+        coin = r / 5;
+        r = r % 5;
+        printf("Number of 5 cents coins: %d", coin);
+        printf("\n");
+        printf("Balance: %d", r);
+        printf("\n");
+    }
+    else
+    {
+        coin = 0;
+        printf("Number of 5 cents coins: %d", coin);
+        printf("\n");
+        printf("Balance: %d", r);
+        printf("\n");
+    }
+    t = t + coin;
+    if (r > 0)
+    {
+        coin = r;
+        printf("Number of 1 cent coins: %d", coin);
+        printf("\n");
+        printf("Balance: %d", r);
+        printf("\n");
+    }
+    else
+    {
+        coin = 0;
+        printf("Number of 1 cent coins: %d", coin);
+        printf("\n");
+        printf("balance: %d", r);
+        printf("\n");
+    }
+    t = t + coin;
+    printf("(change in coins needed only bellow 1 dollar)\n");
+    printf(" all coins: %d", t);
+    printf("\n");
 }
