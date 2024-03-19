@@ -1,7 +1,7 @@
 #include <cs50.h>
 #include <stdio.h>
 
-int N = 26;
+const int N = 26;
 int sum(int N, int alpha[]);
 
 int main(void)
@@ -10,7 +10,7 @@ int main(void)
     string str2 = get_string("Player 2 insert your word: ");
 }
 
-int sum(int 26, int alpha[])
+int sum(int N, int alpha[])
 {
     alpha [] = 1, 3, 3, 2, 1, 4;
     printf(alpha[]);
