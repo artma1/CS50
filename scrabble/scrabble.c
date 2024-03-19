@@ -3,7 +3,7 @@
 
 int main(void)
 {
-    string a = 
+    stringlengh  a =
     string str1 = get_string("Player 1 insert your word: ");
     string str2 = get_string("Player 2 insert your word: ");
 }
