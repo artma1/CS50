@@ -3,7 +3,6 @@
 
 int main(void)
 {
-    str1 = get_string("Player 1 insert your word: ");
-    str2 = get_string("Player 2 insert your word: ");
-    
+    string str1 = get_string("Player 1 insert your word: ");
+    string str2 = get_string("Player 2 insert your word: ");
 }
