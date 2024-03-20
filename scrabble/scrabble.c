@@ -22,7 +22,8 @@ int main(void)
     {
         for (int i = 0; lenght = strlen(word); i < lenght; i++)
         {
-         sum += alpha[word[i]]
+            if ()
+            sum += alpha[word[i] -'A']
         }
     }
 }
