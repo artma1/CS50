@@ -21,7 +21,7 @@ int main(void)
     int i = 0;
     for (i=0; lenght = strlen(word); i < lenght; i++)
     {
-        
+        sum += 
     }
  }
 }
