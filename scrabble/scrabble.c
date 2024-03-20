@@ -10,7 +10,6 @@ int main(void)
     int alpha[N];
     for (int i =65; i<=91; i++)
     {
-        int alpha[i] = i;
         printf("%i\n", i);
     }
     int alpha[N] = 6, 8, 2;
