@@ -19,7 +19,7 @@ int main(void)
  int make_score(string word)
  {
     int i = 0;
-    for (i=0; lenght = strlen(word); i<lenght; i++)
+    for (i=0; lenght = strlen(word); i < lenght; i++)
     {
         
     }
