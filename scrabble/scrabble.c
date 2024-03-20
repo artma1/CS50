@@ -20,15 +20,15 @@ int main(void)
     make_score(str2);
     if (make_score(str1) > make_score(str2))
     {
-        printf("Player 1 won!\n");
+        printf("Player 1 wins!\n");
     }
     else if (make_score(str1) < make_score(str2))
     {
-        printf("Player 2 won!\n");
+        printf("Player 2 wins!\n");
     }
     else
-    printf("Draw!\n");
-    printf("Player 1 score is %i and player 2 score is %i\n", make_score(str1), make_score(str2));
+    printf("Tie!\n");
+    //printf("Player 1 score is %i and player 2 score is %i\n", make_score(str1), make_score(str2));
 }
 
 int make_score(string word)
