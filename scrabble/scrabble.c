@@ -39,6 +39,8 @@ int make_score(string word)
         {
             if (isupper(word[i]))
             {
+                // for each letter on word, do 'letter minus A'
+                // thus finding the position of the letter in alpha[]
                 sum += alpha[word[i] -'A'];
             }
             else if (islower(word[i]))
