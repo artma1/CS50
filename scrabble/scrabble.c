@@ -28,7 +28,7 @@ int main(void)
     }
     else
     printf("Draw!\n");
-    printf("Player 1 score is %i and player 2 score is %i", make_score(str1), make_score(str2));
+    printf("Player 1 score is %i and player 2 score is %i\n", make_score(str1), make_score(str2));
 }
 
 int make_score(string word)
