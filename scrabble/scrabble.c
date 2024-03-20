@@ -1,5 +1,7 @@
+#include <ctype.h>
 #include <cs50.h>
 #include <stdio.h>
+#include <string.h>
 
 // prompt user for word
 // assign word to number
@@ -18,6 +20,13 @@ int main(void)
     //printf(alpha[2]);
     string str1 = get_string("Player 1 insert your word: ");
     string str2 = get_string("Player 2 insert your word: ");
-    printf("%i", str1[]);
-    printf ("%s", str1);
+
+ int make_score(string word)
+ {
+    int i = 0;
+    for (i=0; lenght = strlen(word); i<lenght; i++)
+    {
+
+    }
+ }
 }
