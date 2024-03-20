@@ -35,7 +35,7 @@ int make_score(string word)
 {
     int sum = 0;
     {
-        for (int i = 0; int lenght == strlen(word); i < lenght; i++)
+        for (int i = 0, lenght = strlen(word); i < lenght; i++)
         {
             if (isupper(word[i]))
             {
