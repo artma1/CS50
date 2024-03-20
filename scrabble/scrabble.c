@@ -1,5 +1,5 @@
-#include <ctype.h>
 #include <cs50.h>
+#include <ctype.h>
 #include <stdio.h>
 #include <string.h>
 
@@ -27,8 +27,9 @@ int main(void)
         printf("Player 2 wins!\n");
     }
     else
-    printf("Tie!\n");
-    //printf("Player 1 score is %i and player 2 score is %i\n", make_score(str1), make_score(str2));
+        printf("Tie!\n");
+    // printf("Player 1 score is %i and player 2 score is %i\n", make_score(str1),
+    // make_score(str2));
 }
 
 int make_score(string word)
@@ -41,7 +42,7 @@ int make_score(string word)
             {
                 // for each letter on word, do 'letter minus A'
                 // thus finding the position of the letter in alpha[]
-                sum += alpha[word[i] -'A'];
+                sum += alpha[word[i] - 'A'];
             }
             else if (islower(word[i]))
             {
@@ -55,4 +56,3 @@ int make_score(string word)
     }
     return (sum);
 }
-
