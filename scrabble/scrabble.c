@@ -18,10 +18,11 @@ int main(void)
 
  int make_score(string word)
  {
-    int i = 0;
-    for (i=0; lenght = strlen(word); i < lenght; i++)
+    int sum = 0;
     {
-        sum += 
+        for (int i = 0; lenght = strlen(word); i < lenght; i++)
+        {
+         sum += alpha[word[i]]
+        }
     }
- }
 }
