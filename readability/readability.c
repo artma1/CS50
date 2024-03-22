@@ -53,13 +53,14 @@ int test(string text)
         {
             L++;
         }
-        if(nw == 100)
-        {
-            cont++;
-            tL = L/cont;
-            tsentences = sentences/cont;
-            nw = nw - 100;
-        }
+        //if(nw == 100)
+        //{
+        //    cont++;
+         //   tL = L/cont;
+        //    tsentences = sentences/cont;
+        //    nw = nw - 100;
+        tL = (L*100)/nw;
+        tsentences = (sentences*100)/nw;
     }
     int index = 0.0588 * tL - 0.296 * tsentences - 15.8;
     return (index);
