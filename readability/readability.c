@@ -12,18 +12,18 @@ int main(void)
     string text = get_string("Text: ");
     printf("%s\n", text);
 
-    test(text[]);
+    test(text);
 }
 
-int test(word);
+int test(int word);
 {
     int i = 0;
     // L is letters for 100 words
     // S is sentences per 100 words
 
     // counting words
-    int word = 0;
-    for(i = 0, lenght = strlen(); i = \0 ; i++)
+    word = 0;
+    for(i = 0, lenght = strlen(word); i = lenght ; i++)
     {
         if (i = '.' || i = '!' || i = '?' i = ' ')
         {
