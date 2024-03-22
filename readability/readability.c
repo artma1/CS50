@@ -21,9 +21,12 @@ int test(index);
 
     // counting words
     int word = 0;
-    for(i = 0; i = '.' || i = '!' || i = '?' i = ' '; i++)
+    for(i = 0; i = \0 ; i++)
     {
-
+        if (i = '.' || i = '!' || i = '?' i = ' ')
+        {
+            word++
+        }
     }
     int index = 0.0588 * L - 0.296 * S - 15.8
 }
