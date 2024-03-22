@@ -9,7 +9,7 @@ int main(int argc, string argv[])
         printf("Error. \n");
         return (1);
     }
-    if (long isdigit(argv[1]))
+    else if (long isdigit(argv[1]))
     {
         long key = argv[1];
     }
