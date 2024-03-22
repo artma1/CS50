@@ -2,6 +2,7 @@
 #include <ctype.h>
 #include <stdio.h>
 #include <stdlib.h>
+#include <string.h>
 
 int main(int argc, string argv[])
 {
@@ -22,6 +23,7 @@ int main(int argc, string argv[])
         return (1);
     }
     string plain = get_string("plaintext:  ");
+    int lenght = strlen(plain);
     for (int i = 0; i = lenght ; i++)
     {
         plain []
