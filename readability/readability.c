@@ -53,7 +53,7 @@ int test(string text)
         {
             L++;
         }
-        tL = (L*100)/nw;
+        tL = (L*100)/(float)nw;
         tsentences = (sentences*100)/(float)nw;
     }
     float index = 0.0588 * tL - 0.296 * tsentences - 15.8;
