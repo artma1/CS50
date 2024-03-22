@@ -13,6 +13,15 @@ int main(void)
 {
     string text = get_string("Text: ");
     test(text);
+    if (test(text) > 16)
+    {
+        printf("The grade is: 16+\n");
+    }
+    else if (test(text) < 1)
+    {
+        printf("The grade is: 1-\n");
+    }
+    else
     printf("The grade is: %i\n", test(text));
 }
 
