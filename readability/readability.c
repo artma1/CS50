@@ -53,12 +53,6 @@ int test(string text)
         {
             L++;
         }
-        //if(nw == 100)
-        //{
-        //    cont++;
-         //   tL = L/cont;
-        //    tsentences = sentences/cont;
-        //    nw = nw - 100;
         tL = (L*100)/nw;
         tsentences = (sentences*100)/nw;
     }
