@@ -22,7 +22,6 @@ int test(string word)
     // S is sentences per 100 words
 
     // counting words
-    word = 0;
     for(int i = 0, int lenght = strlen(word); i = lenght ; i++)
     {
         if (i = '.' || i = '!' || i = '?' i = ' ')
