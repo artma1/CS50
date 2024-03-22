@@ -28,7 +28,7 @@ int test(string text)
         if (text[i] == '.' || text[i] == '!' || text[i] == '?' || text[i] == ' ')
         {
             nw++;
-            for (nw < 100)
+            for (nw = 0; nw < 100)
             if( text[i] >= a && <= z || text[i] >= A && <= Z)
             {
                 int L = L++;
