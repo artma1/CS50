@@ -28,6 +28,7 @@ int test(string text)
         if (text[i] == '.' || text[i] == '!' || text[i] == '?' || text[i] == ' ')
         {
             nw++;
+            printf(nw);
         }
     }
     return nw;
