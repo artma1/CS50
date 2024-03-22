@@ -22,20 +22,18 @@ int test(string text)
     // counting words
     int nw = 0;
     int lenght = strlen(text);
-    while (i < lenght)
-    {
-    for(int i = 0; i < lenght, nw = 100 ; i++)
+
+    for(int i = 0; i < lenght; i++)
     {
         if (text[i] == '.' || text[i] == '!' || text[i] == '?' || text[i] == ' ')
         {
             nw++;
+            while (i < lenght)
             if( text[i] >= a && <= z || text[i] >= A && <= Z)
             {
                 int L = L++;
             }
         }
-
-    }
     }
     return nw;
     //int index = 0.0588 * L - 0.296 * S - 15.8
