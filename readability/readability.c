@@ -55,7 +55,7 @@ int test(string text)
         //    nw = nw - 100;
         //}
     }
-    int index = 0.0588 * (L/100) - 0.296 * nw - 15.8;
+    int index = 0.0588 * (L/100) - 0.296 * (sentences/nw) - 15.8;
     return (index);
     //int index = 0.0588 * L - 0.296 * S - 15.8
 }
