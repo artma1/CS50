@@ -1,11 +1,12 @@
 #include <cs50.h>
 #include <stdio.h>
+#include <string.h>
 
 // insert formula
 // repeat until find character ". ! ? ;" in the end of sentence
 // the array is the size of the entire sentence
 // grade 16 or more, output is "grade 16+", grade 1 or less is "1-"
-int test(int word);
+int test(string word);
 
 int main(void)
 {
@@ -15,15 +16,14 @@ int main(void)
     test(text);
 }
 
-int test(int word);
+int test(string word)
 {
-    int i = 0;
     // L is letters for 100 words
     // S is sentences per 100 words
 
     // counting words
     word = 0;
-    for(i = 0, lenght = strlen(word); i = lenght ; i++)
+    for(int i = 0, int lenght = strlen(word); i = lenght ; i++)
     {
         if (i = '.' || i = '!' || i = '?' i = ' ')
         {
