@@ -20,9 +20,10 @@ int test(index);
     // S is sentences per 100 words
 
     // counting words
-   for(i = 0; i = \0; i++)
-   {
+    int word = 0;
+    for(i = 0; i = '.' || i = '!' || i = '?' i = ' '; i++)
+    {
 
-   }
-   int index = 0.0588 * L - 0.296 * S - 15.8
+    }
+    int index = 0.0588 * L - 0.296 * S - 15.8
 }
