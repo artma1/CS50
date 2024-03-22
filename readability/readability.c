@@ -16,14 +16,14 @@ int main(void)
     test(text);
 }
 
-int test(text)
+int test(string text)
 {
     // L is letters for 100 words
     // S is sentences per 100 words
 
     // counting words
     int nw = 0;
-    for(int i = 0; i == \0 ; i++)
+    for(int i = 0; i == nul ; i++)
     {
         if (word[i] == '.' || word[i] == '!' || word[i] == '?' || word[i] == ' ')
         {
