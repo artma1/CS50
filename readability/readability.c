@@ -12,6 +12,7 @@ int main(void)
 {
     string text = get_string("Text: ");
     test(text);
+    printf("The grade is: %i\n", test(text));
 }
 
 int test(string text)
@@ -28,12 +29,17 @@ int test(string text)
         if (text[i] == '.' || text[i] == '!' || text[i] == '?' || text[i] == ' ')
         {
             nw++;
-            if( text[i] >= a && <= z || text[i] >= A && <= Z)
+            if( text[i] >= a || <= z || text[i] >= A && <= Z)
             {
                 int L = L++;
             }
         }
+        if(nw == 100)
+        {
+            nw = nw - 100;
+        }
     }
-    return nw;
+    int index = 0.0588 * L - 0.296 * nw - 15.8;
+    return int index;
     //int index = 0.0588 * L - 0.296 * S - 15.8
 }
