@@ -38,7 +38,7 @@ int test(string text)
 
     for(int i = 0; i < lenght; i++)
     {
-        if (text[i] == '.' || text[i] == '!' || text[i] == '?' || text[i] == ' ')
+        if (text[i] == '. ' || text[i] == '! ' || text[i] == '? ' || text[i] == ' ' || text[i] ==''')
         {
             nw++;
         }
