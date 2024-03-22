@@ -9,6 +9,9 @@ int main(int argc, string argv[])
         long key = argv[1];
     }
     else
+    {
+        printf("Usage: ./caesar key\n")
+    }
     return (1);
     string plain = get_string("plaintext:  ");
     string cypher = get_string("cyphertext: ");
