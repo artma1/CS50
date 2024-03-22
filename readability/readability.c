@@ -38,7 +38,7 @@ int test(string text)
 
     for(int i = 0; i < lenght; i++)
     {
-        if (text[i] == ' ' || text[i] == 'int(39)')
+        if (text[i] == ' ')
         {
             nw++;
         }
