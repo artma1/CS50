@@ -5,15 +5,16 @@
 // repeat until find character ". ! ? ;" in the end of sentence
 // the array is the size of the entire sentence
 // grade 16 or more, output is "grade 16+", grade 1 or less is "1-"
-int test(index);
+int test(word);
 
 int main(void)
 {
     string text = get_string("Text: ");
     printf("%s\n", text);
+    test(text[]);
 }
 
-int test(index);
+int test(word);
 {
     int i = 0;
     // L is letters for 100 words
@@ -28,5 +29,5 @@ int test(index);
             word++;
         }
     }
-    int index = 0.0588 * L - 0.296 * S - 15.8
+    //int index = 0.0588 * L - 0.296 * S - 15.8
 }
