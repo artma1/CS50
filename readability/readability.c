@@ -22,7 +22,7 @@ int test(text)
     // S is sentences per 100 words
 
     // counting words
-    nw = 0;
+    int nw = 0;
     for(int i = 0; i == \0 ; i++)
     {
         if (word[i] == '.' || word[i] == '!' || word[i] == '?' || word[i] == ' ')
