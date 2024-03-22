@@ -45,7 +45,7 @@ int test(string text)
         {
             nw++;
         }
-        if (text[i] == '.' || text[i] == '!' || text[i] == '?' || text[i] == ';')
+        if (text[i] == '.' || text[i] == '!' || text[i] == '?')
         {
             sentences++;
          }
