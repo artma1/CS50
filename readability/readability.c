@@ -31,14 +31,14 @@ int test(string text)
     // S is sentences per 100 words
 
     // counting words
-    int nw = 0;
+    int nw = 1;
     int L = 0;
     int sentences = 0;
     int lenght = strlen(text);
 
     for(int i = 0; i < lenght; i++)
     {
-        if (text[i] == ' ' || text[i] == ''')
+        if (text[i] == ' ' || text[i] == int(39))
         {
             nw++;
         }
@@ -50,12 +50,12 @@ int test(string text)
         {
             L++;
         }
-        if(nw == 100)
-        {
-            nw = nw - 100;
-        }
+        //if(nw == 100)
+        //{
+        //    nw = nw - 100;
+        //}
     }
-    int index = 0.0588 * L - 0.296 * nw - 15.8;
+    int index = 0.0588 * (L/100) - 0.296 * nw - 15.8;
     return (index);
     //int index = 0.0588 * L - 0.296 * S - 15.8
 }
