@@ -10,6 +10,11 @@ int main(int argc, string argv[])
         printf("Error. \n");
         return (1);
     }
+    else if (argc >= 3)
+    {
+        printf("Error. Too many parameters\n");
+    }
+    long key = atol(argv[1]);
     else if (long isdigit(argv[1]))
     {
         long key = argv[1];
