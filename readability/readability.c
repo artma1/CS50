@@ -27,8 +27,12 @@ int test(string text)
         if (text[i] == '.' || text[i] == '!' || text[i] == '?' || text[i] == ' ')
         {
             nw++;
+            if( text[i] >= a && <= z || text[i] >= A && <= Z)
+            {
+                int L = L++;
+            }
         }
-        
+
     }
     return nw;
     //int index = 0.0588 * L - 0.296 * S - 15.8
