@@ -6,7 +6,7 @@ int main(int argc, string argv[])
 {
     if(argv[1] == 0)
     {
-        printf("Error\n");
+        printf("Error. \n");
         return (1);
     }
     //if (isdigit(argv[1]))
