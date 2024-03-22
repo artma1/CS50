@@ -13,6 +13,7 @@ int main(int argc, string argv[])
     else if (argc >= 3)
     {
         printf("Error. Too many parameters\n");
+        return (1);
     }
     long key = atol(argv[1]);
     if (!isdigit(key))
@@ -21,6 +22,7 @@ int main(int argc, string argv[])
         return (1);
     }
     string plain = get_string("plaintext:  ");
+    
     string cypher = get_string("cyphertext: ");
     printf("\n");
 }
