@@ -41,11 +41,11 @@ int test(string text)
         if (text[i] == '.' || text[i] == '!' || text[i] == '?' || text[i] == ' ')
         {
             nw++;
-            if(isupper(text[i]) || islower(text[i]))
+        }
+        if(isupper(text[i]) || islower(text[i]))
             {
                 L++;
             }
-        }
         if(nw == 100)
         {
             nw = nw - 100;
