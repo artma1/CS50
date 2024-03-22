@@ -36,6 +36,8 @@ int test(string text)
     int cont = 0;
     int sentences = 0;
     int lenght = strlen(text);
+    int tsentences = 0;
+    int tL = 0;
 
     for(int i = 0; i < lenght; i++)
     {
@@ -53,13 +55,13 @@ int test(string text)
         }
         if(nw == 100)
         {
-            int cont++;
+            cont++;
+            tL = L/cont;
+            tsentences = sentences/cont;
             nw = nw - 100;
-            int tL = L
         }
     }
-    int tL =
-    int index = 0.0588 * (L/100) - 0.296 * (sentences/100) - 15.8;
+    int index = 0.0588 * tL - 0.296 * tsentences - 15.8;
     return (index);
     //int index = 0.0588 * L - 0.296 * S - 15.8
 }
