@@ -6,7 +6,7 @@
 // repeat until find character ". ! ? ;" in the end of sentence
 // the array is the size of the entire sentence
 // grade 16 or more, output is "grade 16+", grade 1 or less is "1-"
-int test(string word);
+int test(int nw);
 
 int main(void)
 {
@@ -16,17 +16,18 @@ int main(void)
     test(text);
 }
 
-int test(string word)
+int test(int nw)
 {
     // L is letters for 100 words
     // S is sentences per 100 words
 
     // counting words
+    int nw = 0;
     for(int i = 0, int lenght = strlen(word); i = lenght ; i++)
     {
         if (word[i] = '.' || word[i] = '!' || word[i] = '?' word[i] = ' ')
         {
-            word++;
+            nw++;
         }
     }
     //int index = 0.0588 * L - 0.296 * S - 15.8
