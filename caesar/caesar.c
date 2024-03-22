@@ -22,7 +22,7 @@ int main(int argc, string argv[])
         return (1);
     }
     string plain = get_string("plaintext:  ");
-    
+    for (int i = 0; )
     string cypher = get_string("cyphertext: ");
     printf("\n");
 }
