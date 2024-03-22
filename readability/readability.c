@@ -33,6 +33,7 @@ int test(string text)
     // counting words
     int nw = 0;
     int L = 0;
+    int cont = 0;
     int lenght = strlen(text);
 
     for(int i = 0; i < lenght; i++)
