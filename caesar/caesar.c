@@ -4,7 +4,7 @@
 int main(void)
 {
     long key = get_string("Key: "\n);
-    
+    if (key != )
 
     string plain = get_string("plaintext:  ");
     string cypher = get_string("cyphertext: ");
