@@ -28,6 +28,7 @@ int test(string text)
         {
             nw++;
         }
+        
     }
     return nw;
     //int index = 0.0588 * L - 0.296 * S - 15.8
