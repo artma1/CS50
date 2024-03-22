@@ -26,7 +26,10 @@ int main(int argc, string argv[])
     int lenght = strlen(plain);
     for (int i = 0; i = lenght ; i++)
     {
-        plain []
+        if (isupper(plain [i]))
+        {
+            plain[i] = plain[i] + key;
+        }
     }
 
 
