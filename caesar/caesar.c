@@ -22,9 +22,9 @@ int main(int argc, string argv[])
         return (1);
     }
     string plain = get_string("plaintext:  ");
-    for (int i = 0; i = key ; i++)
+    for (int i = 0; i = lenght ; i++)
     {
-        for (plain[i])
+        plain []
     }
 
 
