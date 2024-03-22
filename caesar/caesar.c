@@ -3,7 +3,7 @@
 
 int main(int argc, long argv[])
 {
-    long key = get_string("Key: "\n);
+    long key = get_string("Key: \n");
     if (isdigit(key))
     {
 
