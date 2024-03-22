@@ -57,8 +57,7 @@ int test(string text)
         tL = (L*100)/nw;
         tsentences = (sentences*100)/nw;
     }
-    int index = 0.0588 * tL - 0.296 * tsentences - 15.8;
-    index = round(index);
-    return (index);
+    float index = 0.0588 * tL - 0.296 * tsentences - 15.8;
+    return (round(index));
     //int index = 0.0588 * L - 0.296 * S - 15.8
 }
