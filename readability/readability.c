@@ -22,6 +22,8 @@ int test(string text)
     // counting words
     int nw = 0;
     int lenght = strlen(text);
+    while (i < lenght)
+    {
     for(int i = 0; i < lenght, nw = 100 ; i++)
     {
         if (text[i] == '.' || text[i] == '!' || text[i] == '?' || text[i] == ' ')
@@ -33,6 +35,7 @@ int test(string text)
             }
         }
 
+    }
     }
     return nw;
     //int index = 0.0588 * L - 0.296 * S - 15.8
