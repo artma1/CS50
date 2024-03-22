@@ -1,5 +1,6 @@
 #include <cs50.h>
 #include <ctype.h>
+#include <math.h>
 #include <stdio.h>
 #include <string.h>
 
@@ -57,6 +58,7 @@ int test(string text)
         tsentences = (sentences*100)/nw;
     }
     int index = 0.0588 * tL - 0.296 * tsentences - 15.8;
+    index = round(index);
     return (index);
     //int index = 0.0588 * L - 0.296 * S - 15.8
 }
