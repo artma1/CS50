@@ -15,15 +15,11 @@ int main(int argc, string argv[])
         printf("Error. Too many parameters\n");
     }
     long key = atol(argv[1]);
-    else if (long isdigit(argv[1]))
-    {
-        long key = argv[1];
-    }
-    else
+    if (!isdigit(key))
     {
         printf("Usage: ./caesar key\n");
+        return (1);
     }
-    return (1);
     string plain = get_string("plaintext:  ");
     string cypher = get_string("cyphertext: ");
     printf("\n");
