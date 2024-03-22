@@ -23,12 +23,13 @@ int test(int nw)
 
     // counting words
     nw = 0;
-    for(int i = 0; i = \0 ; i++)
+    for(int i == 0; i == \0 ; i++)
     {
-        if (word[i] = '.' || word[i] = '!' || word[i] = '?' word[i] = ' ')
+        if (word[i] == '.' || word[i] == '!' || word[i] == '?' word[i] == ' ')
         {
             nw++;
         }
     }
+    return nw;
     //int index = 0.0588 * L - 0.296 * S - 15.8
 }
