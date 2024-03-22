@@ -34,10 +34,10 @@ int test(string text)
     int nw = 1;
     int L = 0;
     int cont = 0;
-    int sentences = 0;
+    float sentences = 0;
     int lenght = strlen(text);
     int tsentences = 0;
-    int tL = 0;
+    float tL = 0;
 
     for(int i = 0; i < lenght; i++)
     {
