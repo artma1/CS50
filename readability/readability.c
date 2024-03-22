@@ -24,7 +24,7 @@ int test(string word)
     // counting words
     for(int i = 0, int lenght = strlen(word); i = lenght ; i++)
     {
-        if (i = '.' || i = '!' || i = '?' i = ' ')
+        if (word[i] = '.' || word[i] = '!' || word[i] = '?' word[i] = ' ')
         {
             word++;
         }
