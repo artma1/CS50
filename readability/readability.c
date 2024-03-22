@@ -33,6 +33,7 @@ int test(string text)
     // counting words
     int nw = 1;
     int L = 0;
+    int cont = 0;
     int sentences = 0;
     int lenght = strlen(text);
 
@@ -50,12 +51,14 @@ int test(string text)
         {
             L++;
         }
-        //if(nw == 100)
-        //{
-        //    nw = nw - 100;
-        //}
+        if(nw == 100)
+        {
+            int cont++;
+            nw = nw - 100;
+            int tL = L
+        }
     }
-    int tL = 
+    int tL =
     int index = 0.0588 * (L/100) - 0.296 * (sentences/100) - 15.8;
     return (index);
     //int index = 0.0588 * L - 0.296 * S - 15.8
