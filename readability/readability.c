@@ -11,7 +11,7 @@ int main(void)
 {
     string text = get_string("Text: ");
     printf("%s\n", text);
-    
+
     test(text[]);
 }
 
@@ -23,7 +23,7 @@ int test(word);
 
     // counting words
     int word = 0;
-    for(i = 0; i = \0 ; i++)
+    for(i = 0, lenght = strlen(); i = \0 ; i++)
     {
         if (i = '.' || i = '!' || i = '?' i = ' ')
         {
