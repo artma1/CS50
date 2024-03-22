@@ -33,7 +33,7 @@ int test(string text)
     // counting words
     int nw = 0;
     int L = 0;
-    int cont = 0;
+    int sentences = 0;
     int lenght = strlen(text);
 
     for(int i = 0; i < lenght; i++)
@@ -42,10 +42,14 @@ int test(string text)
         {
             nw++;
         }
+        if (text[i] == '.' || text[i] == '!' || text[i] == '?')
+        {
+            sentences++;
+         }
         if(isupper(text[i]) || islower(text[i]))
-            {
-                L++;
-            }
+        {
+            L++;
+        }
         if(nw == 100)
         {
             nw = nw - 100;
