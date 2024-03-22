@@ -29,7 +29,7 @@ int test(string text)
         if (text[i] == '.' || text[i] == '!' || text[i] == '?' || text[i] == ' ')
         {
             nw++;
-            if( text[i] >= a || <= z || text[i] >= A && <= Z)
+            if( text[i] >= a || <= z || text[i] >= A || <= Z)
             {
                 int L = L++;
             }
