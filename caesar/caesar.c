@@ -1,7 +1,7 @@
 #include <cs50.h>
 #include <stdio.h>
 
-int main(int argc, string argv[])
+int main(int argc, long argv[])
 {
     long key = get_string("Key: "\n);
     if (isdigit(key))
