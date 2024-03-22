@@ -12,7 +12,6 @@ int main(void)
 {
     string text = get_string("Text: ");
     test(text);
-
 }
 
 int test(string text)
@@ -28,7 +27,6 @@ int test(string text)
         if (text[i] == '.' || text[i] == '!' || text[i] == '?' || text[i] == ' ')
         {
             nw++;
-            printf(nw);
         }
     }
     return nw;
