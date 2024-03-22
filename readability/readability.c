@@ -38,7 +38,7 @@ int test(string text)
 
     for(int i = 0; i < lenght; i++)
     {
-        if (text[i] == ' ' || text[i] == int(39))
+        if (text[i] == ' ' || text[i] == 'int(39)')
         {
             nw++;
         }
@@ -55,7 +55,7 @@ int test(string text)
         //    nw = nw - 100;
         //}
     }
-    int index = 0.0588 * (L/100) - 0.296 * (sentences/nw) - 15.8;
+    int index = 0.0588 * (L/100) - 0.296 * (sentences/100) - 15.8;
     return (index);
     //int index = 0.0588 * L - 0.296 * S - 15.8
 }
