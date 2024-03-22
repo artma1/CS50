@@ -16,14 +16,14 @@ int main(void)
     test(text);
     if (test(text) > 16)
     {
-        printf("Grade is: 16+\n");
+        printf("Grade 16+\n");
     }
     else if (test(text) < 1)
     {
-        printf("Grade is: 1-\n");
+        printf("Before Grade 1\n");
     }
     else
-    printf("Grade is: %i\n", test(text));
+    printf("Grade %i\n", test(text));
 }
 
 int test(string text)
