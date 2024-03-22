@@ -23,7 +23,7 @@ int main(void)
         printf("Before Grade 1\n");
     }
     else
-    printf("Grade %i\n", test(text));
+        printf("Grade %i\n", test(text));
 }
 
 int test(string text)
@@ -39,24 +39,24 @@ int test(string text)
     float tsentences = 0;
     float tL = 0;
 
-    for(int i = 0; i < lenght; i++)
+    for (int i = 0; i < lenght; i++)
     {
-        if (text[i] == ' ' || text[i] =='-')
+        if (text[i] == ' ' || text[i] == '-')
         {
             nw++;
         }
         if (text[i] == '.' || text[i] == '!' || text[i] == '?')
         {
             sentences++;
-         }
-        if(isupper(text[i]) || islower(text[i]))
+        }
+        if (isupper(text[i]) || islower(text[i]))
         {
             L++;
         }
-        tL = (L*100)/(float)nw;
-        tsentences = (sentences*100)/(float)nw;
+        tL = (L * 100) / (float) nw;
+        tsentences = (sentences * 100) / (float) nw;
     }
     float index = 0.0588 * tL - 0.296 * tsentences - 15.8;
     return (round(index));
-    //int index = 0.0588 * L - 0.296 * S - 15.8
+    // int index = 0.0588 * L - 0.296 * S - 15.8
 }
