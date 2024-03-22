@@ -18,6 +18,8 @@ int test(index);
     int i = 0;
     // L is letters for 100 words
     // S is sentences per 100 words
+
+    // counting words
    for(i = 0; i = \0; i++)
    {
 
