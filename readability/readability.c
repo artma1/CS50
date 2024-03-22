@@ -30,7 +30,7 @@ int test(string text)
         if (text[i] == '.' || text[i] == '!' || text[i] == '?' || text[i] == ' ')
         {
             nw++;
-            if(text[i] >= 'a' && <= 'z' || text[i] >= 'A' && <= 'Z')
+            if(toupper(text[i]) || tolower)
             {
                 int L = L++;
             }
