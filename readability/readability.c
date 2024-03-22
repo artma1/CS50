@@ -23,6 +23,7 @@ int test(string text)
 
     // counting words
     int nw = 0;
+    int L = 0;
     int lenght = strlen(text);
 
     for(int i = 0; i < lenght; i++)
@@ -32,7 +33,7 @@ int test(string text)
             nw++;
             if(isupper(text[i]) || islower(text[i]))
             {
-                int L = L++;
+                L++;
             }
         }
         if(nw == 100)
@@ -41,6 +42,6 @@ int test(string text)
         }
     }
     int index = 0.0588 * L - 0.296 * nw - 15.8;
-    return int index;
+    return (index);
     //int index = 0.0588 * L - 0.296 * S - 15.8
 }
