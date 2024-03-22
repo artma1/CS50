@@ -18,9 +18,9 @@ int test(index);
     int i = 0;
     // L is letters for 100 words
     // S is sentences per 100 words
-   for(i = 0; i = n; i++)
+   for(i = 0; i = \0; i++)
    {
-    
+
    }
    int index = 0.0588 * L - 0.296 * S - 15.8
 }
