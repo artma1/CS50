@@ -24,16 +24,18 @@ int main(int argc, string argv[])
     }
     string plain = get_string("plaintext:  ");
     int lenght = strlen(plain);
-    for (int i = 0; i = lenght ; i++)
+    for (int i = 0; i == lenght ; i++)
     {
         if (isupper(plain [i]))
         {
             plain[i] = plain[i] + key;
         }
+        else if (islower(plain[i]))
+        {
+            plain[i] = plain[i] + key;
+        }
     }
 
-
-
-    string cypher = get_string("cyphertext: ");
+    printf("cyphertext: %s", plain);
     printf("\n");
 }
