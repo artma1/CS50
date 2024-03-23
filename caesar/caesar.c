@@ -35,7 +35,6 @@ int main(int argc, string argv[])
             plain[i] = plain[i] + key;
         }
     }
-
     printf("cyphertext: %s", plain);
     printf("\n");
 }
